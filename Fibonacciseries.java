@@ -9,6 +9,7 @@ public class Fibonacciseries {
 		int secondNum = 1;
 		int sumFinal;
 		System.out.println(firstNum);
+		System.out.println(secondNum);
 		for (int i = 1; i < 10; i++) {
 			sumFinal = firstNum + secondNum;// 21
 			firstNum = secondNum;// 13
